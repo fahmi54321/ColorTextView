@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <loic.teillard.colortextview.ColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:clt_spaces="true"
+        app:clt_color1="@color/black"
+        app:clt_color2="#F4511E"
+        app:clt_txt1="Hello"
+        app:clt_txt2="World"/>
+
+</RelativeLayout>
